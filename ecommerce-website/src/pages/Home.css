@@ -1,0 +1,385 @@
+/* Home.css */
+
+/* Hero Section */
+.hero {
+  background-image: url('https://via.placeholder.com/1200x400');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.hero-content .btn {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.hero-content .btn:hover {
+  background-color: #2980b9;
+}
+
+/* Featured Products */
+.featured-products {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.featured-products h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.products-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background-color: #ecf0f1;
+  padding: 20px;
+  width: 250px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.product-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  font-size: 18px;
+  color: #2c3e50;
+}
+
+/* Promotional Banner */
+.promo-banner {
+  background-color: #34495e;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.promo-banner h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.promo-banner p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.promo-banner .btn {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.promo-banner .btn:hover {
+  background-color: #c0392b;
+}
+
+
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* Home.css */
+
+.home {
+font-family: Arial, sans-serif;
+}
+
+.hero {
+position: relative;
+text-align: center;
+color: white;
+overflow: hidden; /* Ensure no content overflows */
+}
+
+.hero-image {
+width: 100%;
+height: 60vh; /* Adjust the height as needed */
+object-fit: cover; /* Ensure the image covers the area without distortion */
+}
+
+.hero-content {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+text-align: center;
+padding: 20px;
+background: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background to make the text stand out */
+border-radius: 10px; /* Optional: to round the corners of the background */
+}
+
+.btn {
+display: inline-block;
+padding: 10px 20px;
+background-color: #3498db;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+font-size: 16px; /* Make the text larger and more readable */
+}
+
+.btn:hover {
+background-color: #2980b9;
+}
+
+
+
+.featured-products {
+padding: 20px;
+}
+
+.products-grid {
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+.product-card {
+background-color: #fff;
+border: 1px solid #ddd;
+border-radius: 8px;
+padding: 20px;
+text-align: center;
+width: 30%;
+}
+
+.product-image {
+width: 100%;
+height: auto;
+border-radius: 5px;.featured-products {
+  padding: 20px;
+}
+
+.products-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  width: 30%;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}.featured-products {
+  padding: 20px;
+}
+
+.products-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  width: 30%;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}.featured-products {
+  padding: 20px;
+}
+
+.products-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  width: 30%;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}.featured-products {
+  padding: 20px;
+}
+
+.products-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  width: 30%;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}.featured-products {
+  padding: 20px;
+}
+
+.products-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  width: 30%;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}.featured-products {
+  padding: 20px;
+}
+
+.products-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  width: 30%;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}.featured-products {
+  padding: 20px;
+}
+
+.products-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  width: 30%;
+}
+
+.featured-products {
+  padding: 20px;
+}
+
+.products-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  width: 30%;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+}
+
+.promo-banner {
+text-align: center;
+padding: 20px;
+background-color: #f39c12;
+color: white;
+}
+
+.promo-banner-image {
+width: 100%;
+height: auto;
+border-radius: 8px;
+}
